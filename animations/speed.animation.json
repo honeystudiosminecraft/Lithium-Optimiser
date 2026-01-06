@@ -1,0 +1,18 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.speed": {
+            "loop": true,
+            "bones": {
+                "speed_anchor": {
+                    "position": [
+                        0,
+                        "query.is_swimming ? -864.04 : -846.9",
+                        0.0
+                    ],
+                    "scale": 0.4
+                }
+            }
+        }
+    }
+}
