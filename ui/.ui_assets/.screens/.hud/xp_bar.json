@@ -1,0 +1,73 @@
+{
+  "namespace": "xprgb",
+  "xp_anim@xprgb.ui_anim_fb": {
+    "fps": 18,
+    "frame_count": 18,
+    "frame_step": 18
+  },
+  "empty_progress_bar_rgb@hud.empty_progress_bar": {
+    "size": [
+      "100%c",
+      5
+    ],
+    "layer": 1,
+    "controls": [
+      {
+        "full_progress_bar_rgb@hud.full_progress_bar": {
+          "size": [
+            182,
+            5
+          ],
+          "layer": 2,
+          "controls": [
+            {
+              "progress_bar_nub@hud.progress_bar_nub": {
+                "size": [
+                  "100%c - 10px",
+                  5
+                ],
+                "max_size": [
+                  190,
+                  5
+                ],
+                "layer": 3
+              }
+            }
+          ],
+          "texture": "textures/gui/hud/xp_bar/axpbar/full_xp_bar",
+          "uv": "@xprgb.xp_anim",
+          "uv_size": [
+            182,
+            5
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "xp_rgb",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "texture": "textures/gui/hud/xp_bar/axpbar/empty_xp_bar",
+    "uv_size": [
+      182,
+      5
+    ],
+    "uv": "@xprgb.xp_anim"
+  },
+  "ui_anim_fb": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "fps": "",
+    "reversible": false,
+    "easing": "linear",
+    "frame_count": "",
+    "frame_step": ""
+  }
+}
