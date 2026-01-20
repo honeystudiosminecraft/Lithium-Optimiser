@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Lithium Optimiser",
+    "name": "Lithium Optimiser v1.2",
     "description": "A lightweight performance optimization pack for Minecraft Bedrock Edition.",
-    "uuid": "cdf4102a-e22a-420d-81fe-61cf10ce88fb",
-    "version": [1, 1, 0],
+    "uuid": "74e4db23-769f-4cdd-936c-7e26ca1532d6",
+    "version": [1, 2, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "2c667032-be2b-4842-a35a-224e48df8b1a",
-      "version": [1, 1, 0]
+      "uuid": "b4efcd48-673d-491d-90f9-6bfce944adf8",
+      "version": [1, 2, 0]
     }
   ],
   "metadata": {
